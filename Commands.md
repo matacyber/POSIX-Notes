@@ -27,6 +27,26 @@
 - `man` - shows the man page for a command
 - `aprops` - displays possible commands by searching man pages 
 - `whatis` - displays the name and a one-line description of the man page
+- `sort` - displays as a sorted list
+- `uniq` - accecpts a sorted list of data from either stdin or a file
+- `wc` displays the number of files, words, and bytes contained in files
+- `grep` finds text patterns within files
+- `tail` prints the last 10 lines
+- `head` prints the first 10 lines
+- `tee` reads stdin and copies it to both stdout and to one or more files. This is useful for capturing a pipline's contents at an intermediate stage of processing
+- `printenv` print all enviroment variables
+- `groups` lists all groups the user is part of 
+- `nl` number the lines of a file when reading the file
+- `fold` - Wrap each line to a specified length
+- `cut` - Remove sections from each line of files
+- `paste` - Adds text to one or more columns of a file
+- `join` - Join Lines of two files on a common field
+- `comm` - Compare two sorted files line by line
+- `diff` - Compare files line by line
+- `patch` - Applies changes to a text file
+- `tr` - Translate characters from one to another
+- `sed` - Stream editor for Filtering and Transforming Text
+- `aspell` - An interactive spell checker
 
 ## Less Commands
 - `^` - search for lines starting with the following character
@@ -59,6 +79,16 @@
 - `!(letter)` - Search for command starting with that letter
 - `!?(letter)` - Serach for command with those letters
 
+## Arthmetic Expansion
+- `$((equation))` perform the equation in the expanstion
+
+## Brace Expansion
+- `{}`
+- With brace expansion, you can create multiple text strings from a pattern containing braces
+
+## Command Expansion
+- `$VAR` allows for the use of enviroment variables
+
 ## VIM 
 - `j` - down
 - `k` - up
@@ -85,3 +115,23 @@
 - `o` - Start new line in insert below cursor
 - `O` - Start new line in insert above cursor
 - `e` - Jump from word to word
+
+
+## POSIX Basic vs. Extendend RegEx
+- BRE metacharacters `^` `$` `.` `[` `]` `*`
+- ERE metacharacters 
+- `^$` will match empty lines
+- `^` start with 
+- `$` end with 
+
+- regex101.com (regex tester online)
+
+## File Text Processing
+- `join` joins data from mulitple files based on a shared key field
+- `comm` commpares to text files
+- `diff` detects differences between files
+- `tr` translates characters
+- 
+
+## Process Subsitution
+- `<(COMMAND)` run a command within another command
