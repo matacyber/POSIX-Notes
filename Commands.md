@@ -25,7 +25,7 @@
 - `which` - shows the location of an executable
 - `help` - gets help for a shell builtin
 - `man` - shows the man page for a command
-- `aprops` - displays possible commands by searching man pages 
+- `aprops` - displays possible commands by searching man pages
 - `whatis` - displays the name and a one-line description of the man page
 - `sort` - displays as a sorted list
 - `uniq` - accecpts a sorted list of data from either stdin or a file
@@ -35,7 +35,7 @@
 - `head` prints the first 10 lines
 - `tee` reads stdin and copies it to both stdout and to one or more files. This is useful for capturing a pipline's contents at an intermediate stage of processing
 - `printenv` print all enviroment variables
-- `groups` lists all groups the user is part of 
+- `groups` lists all groups the user is part of
 - `nl` number the lines of a file when reading the file
 - `fold` - Wrap each line to a specified length
 - `cut` - Remove sections from each line of files
@@ -89,7 +89,7 @@
 ## Command Expansion
 - `$VAR` allows for the use of enviroment variables
 
-## VIM 
+## VIM
 - `j` - down
 - `k` - up
 - `h` - left
@@ -119,19 +119,19 @@
 
 ## POSIX Basic vs. Extendend RegEx
 - BRE metacharacters `^` `$` `.` `[` `]` `*`
-- ERE metacharacters 
+- ERE metacharacters
 - `^$` will match empty lines
-- `^` start with 
-- `$` end with 
+- `^` start with
+- `$` end with
 
 - regex101.com (regex tester online)
 
 ## File Text Processing
-- `join` joins data from mulitple files based on a shared key field
-- `comm` commpares to text files
+- `join` joins data from multiple files based on a shared key field
+- `comm` compares to text files
 - `diff` detects differences between files
 - `tr` translates characters
-- 
+-
 
 ## Process Subsitution
 - `<(COMMAND)` run a command within another command
